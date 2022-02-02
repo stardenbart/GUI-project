@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="swing.KuponTransfer">
+  <grid id="27dc6" binding="myFrame" layout-manager="GridLayoutManager" row-count="9" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="e29ff" class="javax.swing.JLabel" binding="lblInfo">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Masukkan Nama"/>
+        </properties>
+      </component>
+      <vspacer id="839eb">
+        <constraints>
+          <grid row="1" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="b220b" class="javax.swing.JTextField" binding="txNama">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="20"/>
+            <preferred-size width="150" height="20"/>
+            <maximum-size width="-1" height="20"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="f5c2b" class="javax.swing.JRadioButton" binding="rad3Bulan">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="150" height="20"/>
+            <preferred-size width="150" height="20"/>
+            <maximum-size width="150" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Langganan 3 Bulan"/>
+        </properties>
+      </component>
+      <component id="8a8cb" class="javax.swing.JRadioButton" binding="rad1Bulan">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="150" height="20"/>
+            <preferred-size width="150" height="20"/>
+            <maximum-size width="150" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Langganan 1 Bulan"/>
+        </properties>
+      </component>
+      <component id="4aa80" class="javax.swing.JRadioButton" binding="rad12Bulan">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="150" height="20"/>
+            <preferred-size width="150" height="20"/>
+            <maximum-size width="150" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Langganan 12 Bulan"/>
+        </properties>
+      </component>
+      <component id="41dc6" class="javax.swing.JCheckBox" binding="boxKetentuan">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="500" height="20"/>
+            <preferred-size width="500" height="20"/>
+            <maximum-size width="500" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Saya menyetujui syarat dan ketentuan yang berlaku"/>
+        </properties>
+      </component>
+      <component id="e4896" class="javax.swing.JLabel" binding="lblHasil2">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="8e4a4" class="javax.swing.JLabel" binding="lblHasil3">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="b67aa" class="javax.swing.JLabel" binding="lblHasil1">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="85114" class="javax.swing.JButton" binding="btnMulai">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="250" height="20"/>
+            <preferred-size width="250" height="20"/>
+            <maximum-size width="250" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Mulai Berlangganan"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
